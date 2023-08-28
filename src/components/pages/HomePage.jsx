@@ -14,6 +14,7 @@ const [data, setData] = useState([]);
 
     return (
         <main className="home-page">
+
             <ul className="home-page_ul">
                 {data.map((el) => {
                     return (
@@ -24,6 +25,8 @@ const [data, setData] = useState([]);
                 }
              
             </ul>    
+
+     
         </main>
     )
 }
