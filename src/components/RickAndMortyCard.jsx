@@ -1,8 +1,8 @@
-function RickAndMortyCard() {
+function RickAndMortyCard({ name, image}) {
     return (
         <li className="rick-and-morty-card">
-            <img />
-            <p>Homer Simpson</p>
+            <img src={image} />
+            <p>{name}</p>
         </li>
     )
 }
